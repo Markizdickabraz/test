@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>TestCapsLock</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Volkhov:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+        integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__content container">
+            <a href="/index.html" class="logo"><img src="./img/svg/Logo.svg" alt="logo" /></a>
+            <nav class="navigate menu__container js-menu-container" id="mobile-menu">
+                <button type="button" class="nav__button menu-toggle js-close-menu">
+                    X
+                </button>
+                <ul class="navigate__list">
+                    <li class="navigate__item"><a class="navigate__link" href="/">Destinations</a></li>
+                    <li class="navigate__item"><a class="navigate__link" href="/">Hotels</a></li>
+                    <li class="navigate__item"><a class="navigate__link" href="/">Flights</a></li>
+                    <li class="navigate__item"><a class="navigate__link" href="/">Bookings</a></li>
+                </ul>
+            </nav>
+            <ul class="register__list">
+                <li class="register__item"><button class="register__btn register__login-btn"
+                        type="button">Login</button></li>
+                <li class="register__item"><button class="register__btn register__singUp-btn" type="button">Sing
+                        up</button>
+                </li>
+            </ul>
+            <div class="language-change__container">
+                <button type="button" class="language-change__btn">en</button>
+            </div>
+            <button type="button" class="nav__button menu-toggle js-open-menu" aria-expanded="false"
+                aria-controls="mobile-menu">
+                <img src="./img/svg/burgerMenu.svg" width="30" height="30" alt="buger menu icon">
+            </button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero__section">
+            <div class="container">
+                <div class="hero__text-container">
+                    <h2 class="hero__caption">Best Destinations around the world</h2>
+                    <h1 class="hero__title">Travel, enjoy
+                        and live a new
+                        and full life</h1>
+                    <p class="hero__text">Built Wicket longer admire do barton vanity itself do in it. Preferred to
+                        sportsmen it engrossed
+                        listening. Park gate sell they west hard for the.</p>
+                    <div>
+                        <button>Find out more</button>
+                        <button>Play Demo</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="form__section">
+            <div class="container">
+                <div>
+                    <form class="form">
+                        <label for="email" class="form__label">
+                            <input id="email" class="form__input" lang="en" type="email" placeholder="Your email" />
+                            <svg class="form__icon" width="26" height="18">
+                                <use href="./img/svg/mail.svg"></use>
+                            </svg>
+                        </label>
+                        <button type="submit" class="footer-form__btn">Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/mobileMenu.js"></script>
+
+</body>
+
+</html>
