@@ -51,15 +51,19 @@
             <div class="container">
                 <div class="hero__text-container">
                     <h2 class="hero__caption">Best Destinations around the world</h2>
-                    <h1 class="hero__title">Travel, enjoy
+                    <h1 class="hero__title">Travel, <span class="hero__title--span">enjoy</span>
                         and live a new
                         and full life</h1>
                     <p class="hero__text">Built Wicket longer admire do barton vanity itself do in it. Preferred to
                         sportsmen it engrossed
                         listening. Park gate sell they west hard for the.</p>
-                    <div>
-                        <button>Find out more</button>
-                        <button>Play Demo</button>
+                    <div class="hero-btn__container">
+                        <button class="find__btn">Find out more</button>
+                        <button class="play__btn">
+                            <div class="play__btn-icon">
+                                <img src="./img/svg/arrayPlayDemo.svg" width="15" height="15" alt="array play demo">
+                            </div>Play Demo
+                        </button>
                     </div>
                 </div>
             </div>
@@ -67,17 +71,21 @@
 
         <section class="form__section">
             <div class="container">
-                <div>
+                <div class="form__container">
+                    <h3 class="form__title">Subscribe to get information, latest news and other
+                        interesting offers about Cobham</h3>
                     <form class="form">
                         <label for="email" class="form__label">
                             <input id="email" class="form__input" lang="en" type="email" placeholder="Your email" />
-                            <svg class="form__icon" width="26" height="18">
-                                <use href="./img/svg/mail.svg"></use>
-                            </svg>
+                            <img class="form__icon" src="./img/svg/mail.svg" alt="mail icon">
                         </label>
-                        <button type="submit" class="footer-form__btn">Subscribe
+                        <button type="submit" class="form__btn">Subscribe
                         </button>
                     </form>
+                    <a href="/" class="messanger__link">
+                        <img src="./img/svg/messageBtn.svg" alt="messanger button">
+                    </a>
+                    <img class="plas__img" src="./img/png/plas.png" alt="plas img">
                 </div>
             </div>
         </section>
