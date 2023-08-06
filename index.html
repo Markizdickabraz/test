@@ -16,13 +16,15 @@
 </head>
 
 <body>
+    <!-- header -->
     <header class="header">
         <div class="header__content container">
-            <a href="/index.html" class="logo"><img src="./img/svg/Logo.svg" alt="logo" /></a>
+            <a href="/" class="logo"><img class="logo__img" src="./img/svg/Logo.svg" alt="logo" /></a>
             <nav class="navigate menu__container js-menu-container" id="mobile-menu">
                 <button type="button" class="nav__button menu-toggle js-close-menu">
                     X
                 </button>
+                <!-- nav -->
                 <ul class="navigate__list">
                     <li class="navigate__item"><a class="navigate__link" href="/">Destinations</a></li>
                     <li class="navigate__item"><a class="navigate__link" href="/">Hotels</a></li>
@@ -30,6 +32,7 @@
                     <li class="navigate__item"><a class="navigate__link" href="/">Bookings</a></li>
                 </ul>
             </nav>
+            <!-- register btn -->
             <ul class="register__list">
                 <li class="register__item"><button class="register__btn register__login-btn"
                         type="button">Login</button></li>
@@ -37,9 +40,13 @@
                         up</button>
                 </li>
             </ul>
+            <!-- lang change -->
             <div class="language-change__container">
-                <button type="button" class="language-change__btn">en</button>
+                <button type="button" class="language-change__btn">en
+                    <img src="./img/svg/languageSvg.svg" alt="lang icon">
+                </button>
             </div>
+            <!-- open menu btn -->
             <button type="button" class="nav__button menu-toggle js-open-menu" aria-expanded="false"
                 aria-controls="mobile-menu">
                 <img src="./img/svg/burgerMenu.svg" width="30" height="30" alt="buger menu icon">
@@ -47,6 +54,7 @@
         </div>
     </header>
     <main class="main">
+        <!-- hero -->
         <section class="hero__section">
             <div class="container">
                 <div class="hero__text-container">
@@ -68,7 +76,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- form -->
         <section class="form__section">
             <div class="container">
                 <div class="form__container">
