@@ -215,8 +215,8 @@ ul {
   justify-content: center;
   align-items: center;
   padding-left: 80px;
-  padding-right: 20px;
-  gap: 50px;
+  padding-right: 40px;
+  gap: 48px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -261,13 +261,15 @@ ul {
 }
 
 .language-change__container {
-  display: flex;
-  flex-direction: column;
   @media screen and (max-width: 909px) {
     padding-right: 50px;
   }
 }
 .language-change__btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
