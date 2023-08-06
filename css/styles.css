@@ -19,6 +19,7 @@
   );
   --find-out-color: #f1a501;
   --play-demo-icon: #df6951;
+  --hover-color: #f4ab0fd9;
 }
 
 /* боді */
@@ -87,6 +88,7 @@ ul {
   @media screen and (max-width: 650px) {
     padding-top: 20px;
     padding-bottom: 15px;
+    justify-content: space-around;
   }
 }
 
@@ -203,6 +205,10 @@ ul {
   line-height: 1.5;
 }
 
+.navigate__link:hover {
+  color: var(--hover-color);
+}
+
 .register__list {
   list-style: none;
   display: flex;
@@ -240,9 +246,18 @@ ul {
   border: none;
 }
 
+.register__login-btn:hover {
+  color: var(--hover-color);
+}
+
 .register__singUp-btn {
   border-radius: 5px;
   border: 1px solid var(--nav-color);
+}
+.register__singUp-btn:hover {
+  color: var(--white-color);
+  background-color: var(--hover-color);
+  border-color: var(--hover-color);
 }
 
 .language-change__container {
@@ -409,6 +424,10 @@ ul {
   }
 }
 
+.find__btn:hover {
+  box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.5);
+}
+
 .play__btn {
   display: flex;
   align-items: center;
@@ -429,6 +448,10 @@ ul {
     font-size: 12px;
     gap: 10px;
   }
+}
+
+.play__btn:hover {
+  box-shadow: 0px 15px 30px 0px rgba(223, 105, 81, 0.5);
 }
 
 .play__btn-icon {
